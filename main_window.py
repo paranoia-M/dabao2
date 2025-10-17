@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
     def __init__(self, username, parent=None):
         super().__init__(parent)
         self.username = username
-        self.setWindowTitle("数字孪生滴灌管生产线运行监控系统")
+        self.setWindowTitle("信息传输技术服务后台管理系统")
 
         self.logout_triggered = False
 
@@ -43,9 +43,9 @@ class MainWindow(QMainWindow):
     def populate_menu(self):
         """向侧边栏添加所有菜单项"""
         self.side_menu.add_menu_item("系统总览", "dashboard")
-        self.side_menu.add_menu_item("产线三维孪生", "3d_twin")
-        self.side_menu.add_menu_item("工艺参数深潜", "deep_dive")
-        self.side_menu.add_menu_item("在线质量视觉", "quality_vision")
+        self.side_menu.add_menu_item("信息三维模型", "3d_twin")
+        self.side_menu.add_menu_item("信息参数深潜", "deep_dive")
+        self.side_menu.add_menu_item("信息质量视觉", "quality_vision")
         self.side_menu.add_menu_item("设备健康诊断", "health_diagnosis")
         self.side_menu.add_menu_item("能耗与物耗模型", "consumption_model")
         self.side_menu.add_menu_item("仿真与优化推演", "simulation")

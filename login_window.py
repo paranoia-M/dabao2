@@ -33,7 +33,7 @@ class LoginDialog(QDialog):
         layout.setContentsMargins(40, 40, 40, 40)
         
         # --- 4. 更新系统标题 ---
-        title_label = QLabel("数字孪生滴灌管生产线")
+        title_label = QLabel("信息传输技术服务")
         title_label.setObjectName("mainTitle")
         title_label.setStyleSheet("""
             font-size: 28pt; 
@@ -41,7 +41,7 @@ class LoginDialog(QDialog):
             color: white;
         """)
         
-        subtitle_label = QLabel("运行监控系统")
+        subtitle_label = QLabel("后台管理系统")
         subtitle_label.setObjectName("subTitle")
         subtitle_label.setStyleSheet("""
             font-size: 24pt; 
